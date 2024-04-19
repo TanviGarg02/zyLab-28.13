@@ -6,4 +6,23 @@ using namespace std;
 
 /* Type your code here */
 
+class ItemToPurchase{
+public:
+  ItemToPurchase();
+  void SetName(string name);
+  void SetPrice (int price);
+  void SetQuantity (int quantity);
+
+  string GetName();
+  int GetPrice();
+  int GetQuantity();
+
+private:
+  string itemName;
+  int itemPrice;
+  int itemQuantity;
+};
+
+
+
 #endif
